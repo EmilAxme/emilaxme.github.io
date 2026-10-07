@@ -1,0 +1,27 @@
+{
+  "_note": "Interface words that do NOT exist on cleaningpraha.cz. SPEC.md asks for the scroll hint \"Posuňte dolů\"; RU/EN are plain translations. Everything else here is only read by screen readers (aria-labels). Wording to be confirmed by the customer. Customer copy lives in content.json.",
+  "cs": {
+    "scrollHint": "Posuňte dolů",
+    "menu": "Menu",
+    "menuClose": "Zavřít menu",
+    "langs": "Jazyk",
+    "stage": "Příběh: od skvrny k čistotě",
+    "progress": "Scéna {n} z {total}"
+  },
+  "ru": {
+    "scrollHint": "Листайте вниз",
+    "menu": "Меню",
+    "menuClose": "Закрыть меню",
+    "langs": "Язык",
+    "stage": "История: от пятна до чистоты",
+    "progress": "Сцена {n} из {total}"
+  },
+  "en": {
+    "scrollHint": "Scroll down",
+    "menu": "Menu",
+    "menuClose": "Close menu",
+    "langs": "Language",
+    "stage": "Story: from stain to clean",
+    "progress": "Scene {n} of {total}"
+  }
+}

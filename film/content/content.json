@@ -1,0 +1,1433 @@
+{
+ "_source": {
+  "site": "https://www.cleaningpraha.cz",
+  "routes": {
+   "cs": "/cs/",
+   "ru": "/ru/",
+   "en": "/en/"
+  },
+  "fetched": "2026-09-29",
+  "how": "Texts copied verbatim from the page component dictionary in /_next/static/chunks/2acarmb_l7p77.js and cross-checked against the server-rendered HTML of each route. Price strings use the site's own Intl formatting (NBSP as thousands separator in cs/ru, comma in en).",
+  "notes": [
+   "Root '/' renders the cs page with a different <title>/description (see rootMeta).",
+   "<html lang> is always 'cs' in the static HTML; the site switches it in JS.",
+   "hero.h1Accent is the italic serif line; SPEC uses it as the scene-3 headline.",
+   "care.heading contains a line break (\\n); the site renders it with white-space: pre-line."
+  ]
+ },
+ "defaultLang": "cs",
+ "langs": [
+  "cs",
+  "ru",
+  "en"
+ ],
+ "rootMeta": {
+  "title": "CleaningPraha | Čištění čalounění Praha",
+  "description": "Profesionální čištění sedaček, matrací a koberců v Praze. 5 let zkušeností, 24/7. Objednávka od 900 Kč, doprava po Praze zdarma."
+ },
+ "sectionOrder": [
+  {
+   "id": "header",
+   "selector": "header.wrap.header",
+   "note": "sticky glass bar"
+  },
+  {
+   "id": "hero",
+   "selector": "section.hero",
+   "note": "autoplay muted loop video /media/hero-extractor-4k.mp4, poster /media/extractor-poster.jpg"
+  },
+  {
+   "id": "stats",
+   "selector": "div.wrap.stats"
+  },
+  {
+   "id": "services",
+   "anchor": "#services",
+   "selector": "section#services",
+   "note": "01, 3 cards + price catalogue + note"
+  },
+  {
+   "id": "calculator",
+   "anchor": "#calculator",
+   "selector": "section#calculator",
+   "note": "02"
+  },
+  {
+   "id": "beforeAfter",
+   "selector": "section.results-section",
+   "note": "03, no anchor"
+  },
+  {
+   "id": "care",
+   "anchor": "#care",
+   "selector": "section#care",
+   "note": "04, split photo + text + 3 features, then guarantee banner"
+  },
+  {
+   "id": "booking",
+   "anchor": "#booking",
+   "selector": "section#booking",
+   "note": "05, dark card with form"
+  },
+  {
+   "id": "faq",
+   "selector": "section .faq",
+   "note": "<details> accordion"
+  },
+  {
+   "id": "footer",
+   "selector": "footer.footer",
+   "note": "4 contact tiles + brand line"
+  },
+  {
+   "id": "whatsappFloat",
+   "selector": "a.whatsapp-float",
+   "note": "fixed bottom-right, #25d366"
+  },
+  {
+   "id": "stickyBar",
+   "selector": "div.mobile-cta",
+   "note": "fixed bottom bar, visible only <=640px"
+  }
+ ],
+ "prices": {
+  "currency": "Kč",
+  "minimumOrder": 900,
+  "drying": 400,
+  "travelPrague": 0,
+  "items": [
+   {
+    "id": "sofa3",
+    "price": 900,
+    "unit": null
+   },
+   {
+    "id": "sofa4",
+    "price": 1100,
+    "unit": null
+   },
+   {
+    "id": "sofa5",
+    "price": 1300,
+    "unit": null
+   },
+   {
+    "id": "corner",
+    "price": 1000,
+    "unit": null
+   },
+   {
+    "id": "mattress1",
+    "price": 900,
+    "unit": null
+   },
+   {
+    "id": "mattress2",
+    "price": 1600,
+    "unit": null
+   },
+   {
+    "id": "carpet",
+    "price": 120,
+    "unit": "m²"
+   },
+   {
+    "id": "chair",
+    "price": 300,
+    "unit": null
+   },
+   {
+    "id": "armchair",
+    "price": 200,
+    "unit": null
+   },
+   {
+    "id": "pouf",
+    "price": 100,
+    "unit": null
+   },
+   {
+    "id": "sofa2",
+    "price": 300,
+    "unit": null
+   },
+   {
+    "id": "modular",
+    "price": 1500,
+    "unit": null
+   },
+   {
+    "id": "fitted",
+    "price": 100,
+    "unit": "m²"
+   },
+   {
+    "id": "headboard",
+    "price": 500,
+    "unit": null
+   },
+   {
+    "id": "cushion",
+    "price": 100,
+    "unit": null
+   },
+   {
+    "id": "office",
+    "price": 200,
+    "unit": null
+   },
+   {
+    "id": "urineOdor",
+    "price": 300,
+    "unit": null
+   },
+   {
+    "id": "other",
+    "price": null,
+    "unit": null
+   }
+  ],
+  "calcFormula": "total = max(900, sum(price*qty) + (drying ? 400 : 0)); unpriced ('other') adds 0 and shows unpricedNote",
+  "calcDefault": {
+   "sofa3": 1
+  }
+ },
+ "contacts": {
+  "phone": "+420 776 421 011",
+  "phoneHref": "tel:+420776421011",
+  "whatsapp": "https://wa.me/420776421011",
+  "email": "cleaningprahacz@gmail.com",
+  "emailHref": "mailto:cleaningprahacz@gmail.com",
+  "instagram": "https://www.instagram.com/cleaningpraha/"
+ },
+ "integrations": {
+  "googleAdsId": "AW-18471355091",
+  "gtagSnippet": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=AW-18471355091\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'AW-18471355091');\n</script>",
+  "conversionSnippet": "<!-- Event snippet for Отправка формы для потенциальных клиентов conversion page -->\n<script>\n  gtag('event', 'conversion', {\n    'send_to': 'AW-18471355091/j-7VCPPXn4YdENOF6udE',\n    'value': 1.0,\n    'currency': 'JPY'\n  });\n</script>",
+  "formEndpoint": "/send.php (POST FormData: name, phone, address, date, time, message, website[honeypot], lang, counts(JSON), dry(0/1), estimate) -> redirect /thank-you.html?lang=xx"
+ },
+ "media": {
+  "siteImages": [
+   {
+    "url": "https://www.cleaningpraha.cz/media/sofa-interior.jpg",
+    "local": "assets/img/sofa-interior.jpg",
+    "web": "assets/img/sofa-interior.webp",
+    "size": "2200x1468",
+    "usedIn": "services card 1 + care section photo"
+   },
+   {
+    "url": "https://www.cleaningpraha.cz/media/bedroom.jpg",
+    "local": "assets/img/bedroom.jpg",
+    "web": "assets/img/bedroom.webp",
+    "size": "1600x1270",
+    "usedIn": "services card 2"
+   },
+   {
+    "url": "https://www.cleaningpraha.cz/media/rug.jpg",
+    "local": "assets/img/rug.jpg",
+    "web": "assets/img/rug.webp",
+    "size": "1600x2400",
+    "usedIn": "services card 3 (object-position: center 20%)"
+   },
+   {
+    "url": "https://www.cleaningpraha.cz/media/before-after-sofa.png",
+    "local": "assets/img/before-after-sofa.png",
+    "web": "assets/img/before-after-sofa.webp",
+    "size": "1536x1024",
+    "usedIn": "before/after card 1"
+   },
+   {
+    "url": "https://www.cleaningpraha.cz/media/before-after-mattress.png",
+    "local": "assets/img/before-after-mattress.png",
+    "web": "assets/img/before-after-mattress.webp",
+    "size": "1536x1024",
+    "usedIn": "before/after card 2"
+   },
+   {
+    "url": "https://www.cleaningpraha.cz/media/before-after-rug.png",
+    "local": "assets/img/before-after-rug.png",
+    "web": "assets/img/before-after-rug.webp",
+    "size": "1536x1024",
+    "usedIn": "before/after card 3"
+   },
+   {
+    "url": "https://www.cleaningpraha.cz/media/extractor-poster.jpg",
+    "local": "assets/img/extractor-poster.jpg",
+    "web": "assets/img/extractor-poster.webp",
+    "size": "1920x1080",
+    "usedIn": "hero video poster"
+   }
+  ],
+  "notDownloaded": [
+   {
+    "url": "https://www.cleaningpraha.cz/media/hero-extractor-4k.mp4",
+    "bytes": 8872642,
+    "usedIn": "current hero background video (replaced by the demo scenes)"
+   }
+  ]
+ },
+ "sceneMap": {
+  "_note": "Which keys the SPEC scenes use (paths inside i18n.<lang>). Texts are the customer's own.",
+  "scene1": [
+   "hero.badge",
+   "hero.eyebrow",
+   "hero.h1Line1",
+   "hero.subtitle",
+   "hero.ctaPrimary",
+   "hero.ctaSecondary",
+   "hero.checks"
+  ],
+  "scene2": [
+   "care.headingLines",
+   "care.text",
+   "care.steps"
+  ],
+  "scene3": [
+   "beforeAfter.kicker",
+   "beforeAfter.heading",
+   "beforeAfter.intro",
+   "beforeAfter.note"
+  ],
+  "scene4": [
+   "hero.h1Accent",
+   "stats",
+   "hero.ctaPrimary"
+  ],
+  "afterScenes": [
+   "services"
+  ],
+  "phoneBar": [
+   "stickyBar.label",
+   "stickyBar.price",
+   "stickyBar.cta",
+   "whatsappFloat"
+  ]
+ },
+ "i18n": {
+  "cs": {
+   "meta": {
+    "title": "Čištění sedaček a čalounění Praha | CleaningPraha",
+    "description": "Profesionální péče o sedačky, matrace a koberce. U vás doma, šetrně k látce a s důrazem na každý detail."
+   },
+   "header": {
+    "brandName": "CleaningPraha",
+    "brandTagline": "UPHOLSTERY CARE · 24/7",
+    "nav": [
+     {
+      "label": "Služby a ceny",
+      "href": "#services"
+     },
+     {
+      "label": "Kalkulace",
+      "href": "#calculator"
+     },
+     {
+      "label": "Jak čistíme",
+      "href": "#care"
+     }
+    ],
+    "langs": [
+     {
+      "code": "cs",
+      "label": "CZ"
+     },
+     {
+      "code": "ru",
+      "label": "RU"
+     },
+     {
+      "code": "en",
+      "label": "EN"
+     }
+    ],
+    "cta": "Vybrat termín"
+   },
+   "hero": {
+    "badge": "PRACUJEME 24/7 · VE DNE I V NOCI",
+    "eyebrow": "ČIŠTĚNÍ ČALOUNĚNÍ · PRAHA",
+    "h1Line1": "Váš oblíbený nábytek.",
+    "h1Accent": "Znovu svěží.",
+    "subtitle": "Profesionální péče o sedačky, matrace a koberce. U vás doma, šetrně k látce a s důrazem na každý detail.",
+    "ctaPrimary": "Vybrat termín",
+    "ctaSecondary": "Spočítat cenu",
+    "checks": [
+     "Výjezd možný již dnes",
+     "Doprava po Praze zdarma"
+    ],
+    "videoPause": "Pozastavit video",
+    "videoPlay": "Přehrát video"
+   },
+   "stats": [
+    {
+     "value": "5",
+     "label": "let zkušeností"
+    },
+    {
+     "value": "24/7",
+     "label": "ve dne i v noci"
+    },
+    {
+     "value": "900 Kč",
+     "label": "minimální objednávka"
+    },
+    {
+     "value": "0 Kč",
+     "label": "doprava po Praze"
+    }
+   ],
+   "services": {
+    "kicker": "01 / Služby a ceny",
+    "heading": "Čistota má mnoho podob.",
+    "intro": "Od oblíbeného křesla po celou sedačku. Vyberte, čemu vrátíme svěžest.",
+    "from": "od",
+    "cards": [
+     {
+      "title": "Sedačky a křesla",
+      "description": "Malé, velké, rohové i modulární. Péče podle typu čalounění.",
+      "priceFrom": "od",
+      "price": "900 Kč",
+      "image": "assets/img/sofa-interior.webp",
+      "calcPreset": "sofa3",
+      "ariaCalc": "Spočítat cenu: Sedačky a křesla"
+     },
+     {
+      "title": "Matrace",
+      "description": "Jednostranné i oboustranné čištění pro váš prostor k odpočinku.",
+      "priceFrom": "od",
+      "price": "900 Kč",
+      "image": "assets/img/bedroom.webp",
+      "calcPreset": "mattress1",
+      "ariaCalc": "Spočítat cenu: Matrace"
+     },
+     {
+      "title": "Koberce a koberečky",
+      "description": "Kusové koberce i celoplošný koberec. Doma i v kanceláři.",
+      "priceFrom": "od",
+      "price": "120 Kč/m²",
+      "image": "assets/img/rug.webp",
+      "calcPreset": "carpet",
+      "ariaCalc": "Spočítat cenu: Koberce a koberečky"
+     }
+    ],
+    "catalog": [
+     {
+      "id": "sofa3",
+      "name": "Třímístná sedačka",
+      "priceLabel": "od 900 Kč"
+     },
+     {
+      "id": "sofa4",
+      "name": "Čtyřmístná sedačka",
+      "priceLabel": "od 1 100 Kč"
+     },
+     {
+      "id": "sofa5",
+      "name": "Pětimístná sedačka",
+      "priceLabel": "od 1 300 Kč"
+     },
+     {
+      "id": "corner",
+      "name": "Rohová sedačka bez polštářů",
+      "priceLabel": "od 1 000 Kč"
+     },
+     {
+      "id": "mattress1",
+      "name": "Matrace — jedna strana",
+      "priceLabel": "od 900 Kč"
+     },
+     {
+      "id": "mattress2",
+      "name": "Matrace — obě strany",
+      "priceLabel": "od 1 600 Kč"
+     },
+     {
+      "id": "carpet",
+      "name": "Kusový koberec",
+      "priceLabel": "od 120 Kč/m²"
+     },
+     {
+      "id": "chair",
+      "name": "Čalouněná židle",
+      "priceLabel": "od 300 Kč"
+     },
+     {
+      "id": "armchair",
+      "name": "Křeslo",
+      "priceLabel": "od 200 Kč"
+     },
+     {
+      "id": "pouf",
+      "name": "Taburet",
+      "priceLabel": "od 100 Kč"
+     },
+     {
+      "id": "sofa2",
+      "name": "Dvoumístná sedačka",
+      "priceLabel": "od 300 Kč"
+     },
+     {
+      "id": "modular",
+      "name": "Velká / modulární sedačka, tvar U",
+      "priceLabel": "od 1 500 Kč"
+     },
+     {
+      "id": "fitted",
+      "name": "Celoplošný koberec",
+      "priceLabel": "od 100 Kč/m²"
+     },
+     {
+      "id": "headboard",
+      "name": "Čelo postele a čalouněný rám",
+      "priceLabel": "od 500 Kč"
+     },
+     {
+      "id": "cushion",
+      "name": "Polštář / sedák",
+      "priceLabel": "od 100 Kč"
+     },
+     {
+      "id": "office",
+      "name": "Kancelářská židle",
+      "priceLabel": "od 200 Kč"
+     },
+     {
+      "id": "urineOdor",
+      "name": "Odstranění zápachu moči — 100% záruka",
+      "priceLabel": "od 300 Kč"
+     },
+     {
+      "id": "other",
+      "name": "Jiné textilní povrchy",
+      "priceLabel": "Cena podle fotografií"
+     },
+     {
+      "id": "drying",
+      "name": "Sušení nábytku",
+      "priceLabel": "400 Kč"
+     }
+    ],
+    "quoteByPhoto": "Cena podle fotografií",
+    "priceNote": "Ceny „od“ jsou orientační. Přesnou cenu určí manažer podle fotografií nebo technik na místě před zahájením práce. Minimální objednávka 900 Kč. Doprava po Praze zdarma."
+   },
+   "calculator": {
+    "kicker": "02 / Kalkulace",
+    "heading": "Čistší domov začíná tady.",
+    "intro": "Vyberte všechny služby. Orientační cenu uvidíte hned.",
+    "dryingLabel": "Sušení nábytku",
+    "dryingPrice": "+400 Kč",
+    "summaryKicker": "Vaše orientační kalkulace",
+    "from": "od",
+    "travelFree": "Doprava po Praze zdarma",
+    "minimum": "Minimální objednávka: 900 Kč",
+    "unpricedNote": "Vybrané služby bez ceníku budou naceněny zvlášť podle fotografií. Uvedená částka je nezahrnuje.",
+    "priceNote": "Ceny „od“ jsou orientační. Přesnou cenu určí manažer podle fotografií nebo technik na místě před zahájením práce. Minimální objednávka 900 Kč. Doprava po Praze zdarma.",
+    "cta": "Vybrat termín",
+    "unitSqm": " m²",
+    "unitPcs": "ks"
+   },
+   "beforeAfter": {
+    "kicker": "03 / Před a po",
+    "heading": "Před a po",
+    "intro": "Ukázka možného výsledku čištění sedačky, matrace a koberce.",
+    "before": "Před",
+    "after": "Po",
+    "cards": [
+     {
+      "caption": "Sedačky a křesla",
+      "image": "assets/img/before-after-sofa.webp"
+     },
+     {
+      "caption": "Matrace",
+      "image": "assets/img/before-after-mattress.webp"
+     },
+     {
+      "caption": "Koberce a koberečky",
+      "image": "assets/img/before-after-rug.webp"
+     }
+    ],
+    "imageAlt": "Před / Po: ",
+    "note": "Ilustrační vizualizace. Skutečný výsledek závisí na materiálu, stáří a typu znečištění."
+   },
+   "care": {
+    "kicker": "04 / Jak čistíme",
+    "heading": "Hloubková čistota.\nŠetrná péče.",
+    "headingLines": [
+     "Hloubková čistota.",
+     "Šetrná péče."
+    ],
+    "text": "Každá látka si zaslouží správný přístup. Nejdříve posoudíme materiál a stav nábytku, poté zvolíme postup čištění.",
+    "steps": [
+     {
+      "icon": "scan-line",
+      "title": "Profesionální vybavení",
+      "text": "Používáme extraktor Santoemma Sabrina Maxi."
+     },
+     {
+      "icon": "shield-check",
+      "title": "S respektem k vašemu nábytku",
+      "text": "Postup přizpůsobíme látce a znečištění. Cenu odsouhlasíme předem."
+     },
+     {
+      "icon": "wind",
+      "title": "Sušení za 400 Kč",
+      "text": "K čištění si můžete přidat sušení nábytku."
+     }
+    ],
+    "image": "assets/img/sofa-interior.webp"
+   },
+   "guarantee": {
+    "icon": "shield-check",
+    "value": "100%",
+    "text": "Odstranění zápachu moči se 100% zárukou."
+   },
+   "booking": {
+    "kicker": "05 / Poptávka",
+    "heading": "Kdy se vám to hodí?",
+    "text": "Vyberte preferovaný čas. Žádost uložíme a termín následně potvrdí manažer. Časy jsou v časovém pásmu Praha.",
+    "totalLabel": "Orientační cena vaší objednávky",
+    "from": "od",
+    "totalDefault": "od 900 Kč",
+    "unpricedNote": "Vybrané služby bez ceníku budou naceněny zvlášť podle fotografií. Uvedená částka je nezahrnuje.",
+    "bullets": [
+     "Doprava po Praze zdarma",
+     "Minimální objednávka: 900 Kč"
+    ],
+    "privacy": "Údaje z formuláře slouží k vyřízení poptávky a potvrzení termínu.",
+    "fields": {
+     "name": "Vaše jméno",
+     "phone": "Telefon",
+     "phonePlaceholder": "+420",
+     "address": "Adresa v Praze",
+     "date": "Preferovaný den",
+     "time": "Preferovaný čas",
+     "timePlaceholder": "--:--",
+     "message": "Co potřebujete vyčistit?"
+    },
+    "consent": "Souhlasím se zpracováním uvedených údajů pro vyřízení této poptávky.",
+    "submit": "Odeslat poptávku",
+    "sending": "Odesílání…",
+    "success": "Poptávka byla uložena.",
+    "successText": "Termín zatím není potvrzen. Číslo vaší poptávky:",
+    "error": "Poptávku se nepodařilo uložit. Údaje zůstaly vyplněné. Zkuste to znovu."
+   },
+   "faq": {
+    "kicker": "FAQ",
+    "heading": "Ještě něco vás zajímá?",
+    "items": [
+     {
+      "q": "Jak zjistím přesnou cenu?",
+      "a": "Manažer ji stanoví podle fotografií nebo technik při prohlídce na místě. Cenu vždy odsouhlasíte před zahájením práce."
+     },
+     {
+      "q": "Můžete přijet ještě dnes?",
+      "a": "Výjezd již dnes je možný podle aktuální kapacity. Pracujeme 24/7. Preferovaný čas v poptávce není automaticky potvrzená rezervace."
+     },
+     {
+      "q": "Co zahrnuje kalkulace?",
+      "a": "Zobrazuje výchozí ceny vybraných služeb a zohledňuje minimální objednávku 900 Kč. Položky bez ceníku se nacení individuálně."
+     },
+     {
+      "q": "Je doprava po Praze placená?",
+      "a": "Ne, doprava po Praze je zdarma."
+     },
+     {
+      "q": "Jak je to se sušením?",
+      "a": "Sušení nábytku lze přidat za 400 Kč. Dobu schnutí upřesní technik podle materiálu a podmínek."
+     }
+    ]
+   },
+   "footer": {
+    "contacts": [
+     {
+      "type": "instagram",
+      "label": "Instagram",
+      "icon": "at-sign"
+     },
+     {
+      "type": "whatsapp",
+      "label": "WhatsApp",
+      "icon": "message-circle"
+     },
+     {
+      "type": "phone",
+      "label": "+420 776 421 011",
+      "icon": "phone"
+     },
+     {
+      "type": "email",
+      "label": "cleaningprahacz@gmail.com",
+      "icon": "mail"
+     }
+    ],
+    "brandName": "CleaningPraha",
+    "brandTagline": "UPHOLSTERY CARE · 24/7",
+    "text": "Profesionální čištění čalounění v Praze.",
+    "meta": "Praha · 24/7 · CZ / RU / EN"
+   },
+   "stickyBar": {
+    "label": "Orientační cena vaší objednávky",
+    "price": "od 900 Kč",
+    "cta": "Vybrat termín"
+   },
+   "whatsappFloat": {
+    "ariaLabel": "WhatsApp",
+    "href": "https://wa.me/420776421011"
+   },
+   "thankYou": {
+    "title": "Děkujeme!",
+    "text": "Vaše poptávka byla odeslána. Ozveme se vám kvůli potvrzení termínu.",
+    "back": "Zpět na web"
+   }
+  },
+  "ru": {
+   "meta": {
+    "title": "Химчистка мебели в Праге | CleaningPraha",
+    "description": "Профессиональный уход за диванами, матрасами и коврами. У вас дома, бережно к ткани и с вниманием к каждой детали."
+   },
+   "header": {
+    "brandName": "CleaningPraha",
+    "brandTagline": "UPHOLSTERY CARE · 24/7",
+    "nav": [
+     {
+      "label": "Услуги и цены",
+      "href": "#services"
+     },
+     {
+      "label": "Калькулятор",
+      "href": "#calculator"
+     },
+     {
+      "label": "Как мы чистим",
+      "href": "#care"
+     }
+    ],
+    "langs": [
+     {
+      "code": "cs",
+      "label": "CZ"
+     },
+     {
+      "code": "ru",
+      "label": "RU"
+     },
+     {
+      "code": "en",
+      "label": "EN"
+     }
+    ],
+    "cta": "Выбрать время"
+   },
+   "hero": {
+    "badge": "РАБОТАЕМ 24/7 · ДНЁМ И НОЧЬЮ",
+    "eyebrow": "ХИМЧИСТКА МЕБЕЛИ · ПРАГА",
+    "h1Line1": "Ваша любимая мебель.",
+    "h1Accent": "Снова свежая.",
+    "subtitle": "Профессиональный уход за диванами, матрасами и коврами. У вас дома, бережно к ткани и с вниманием к каждой детали.",
+    "ctaPrimary": "Выбрать время",
+    "ctaSecondary": "Рассчитать стоимость",
+    "checks": [
+     "Возможен выезд уже сегодня",
+     "Выезд по Праге бесплатно"
+    ],
+    "videoPause": "Остановить видео",
+    "videoPlay": "Включить видео"
+   },
+   "stats": [
+    {
+     "value": "5",
+     "label": "лет на рынке"
+    },
+    {
+     "value": "24/7",
+     "label": "днём и ночью"
+    },
+    {
+     "value": "900 Kč",
+     "label": "минимальный заказ"
+    },
+    {
+     "value": "0 Kč",
+     "label": "выезд по Праге"
+    }
+   ],
+   "services": {
+    "kicker": "01 / Услуги и цены",
+    "heading": "Чистота в каждой детали.",
+    "intro": "От любимого кресла до большого дивана. Выберите, чему мы вернём свежесть.",
+    "from": "от",
+    "cards": [
+     {
+      "title": "Диваны и кресла",
+      "description": "Маленькие, большие, угловые и модульные. Уход с учётом обивки.",
+      "priceFrom": "от",
+      "price": "900 Kč",
+      "image": "assets/img/sofa-interior.webp",
+      "calcPreset": "sofa3",
+      "ariaCalc": "Рассчитать стоимость: Диваны и кресла"
+     },
+     {
+      "title": "Матрасы",
+      "description": "Чистка с одной или двух сторон для вашего места отдыха.",
+      "priceFrom": "от",
+      "price": "900 Kč",
+      "image": "assets/img/bedroom.webp",
+      "calcPreset": "mattress1",
+      "ariaCalc": "Рассчитать стоимость: Матрасы"
+     },
+     {
+      "title": "Ковры и ковролин",
+      "description": "Отдельные ковры и ковролин. Для дома и офиса.",
+      "priceFrom": "от",
+      "price": "120 Kč/m²",
+      "image": "assets/img/rug.webp",
+      "calcPreset": "carpet",
+      "ariaCalc": "Рассчитать стоимость: Ковры и ковролин"
+     }
+    ],
+    "catalog": [
+     {
+      "id": "sofa3",
+      "name": "Трёхместный диван",
+      "priceLabel": "от 900 Kč"
+     },
+     {
+      "id": "sofa4",
+      "name": "Четырёхместный диван",
+      "priceLabel": "от 1 100 Kč"
+     },
+     {
+      "id": "sofa5",
+      "name": "Пятиместный диван",
+      "priceLabel": "от 1 300 Kč"
+     },
+     {
+      "id": "corner",
+      "name": "Угловой диван без подушек",
+      "priceLabel": "от 1 000 Kč"
+     },
+     {
+      "id": "mattress1",
+      "name": "Матрас — одна сторона",
+      "priceLabel": "от 900 Kč"
+     },
+     {
+      "id": "mattress2",
+      "name": "Матрас — две стороны",
+      "priceLabel": "от 1 600 Kč"
+     },
+     {
+      "id": "carpet",
+      "name": "Ковёр",
+      "priceLabel": "от 120 Kč/m²"
+     },
+     {
+      "id": "chair",
+      "name": "Мягкий стул",
+      "priceLabel": "от 300 Kč"
+     },
+     {
+      "id": "armchair",
+      "name": "Кресло",
+      "priceLabel": "от 200 Kč"
+     },
+     {
+      "id": "pouf",
+      "name": "Табурет / пуф",
+      "priceLabel": "от 100 Kč"
+     },
+     {
+      "id": "sofa2",
+      "name": "Двухместная сидячая секция",
+      "priceLabel": "от 300 Kč"
+     },
+     {
+      "id": "modular",
+      "name": "Большой / модульный / П-образный диван",
+      "priceLabel": "от 1 500 Kč"
+     },
+     {
+      "id": "fitted",
+      "name": "Ковролин",
+      "priceLabel": "от 100 Kč/m²"
+     },
+     {
+      "id": "headboard",
+      "name": "Изголовье и мягкий каркас кровати",
+      "priceLabel": "от 500 Kč"
+     },
+     {
+      "id": "cushion",
+      "name": "Подушка / сиденье",
+      "priceLabel": "от 100 Kč"
+     },
+     {
+      "id": "office",
+      "name": "Офисное кресло",
+      "priceLabel": "от 200 Kč"
+     },
+     {
+      "id": "urineOdor",
+      "name": "Устранение запаха мочи — гарантия 100%",
+      "priceLabel": "от 300 Kč"
+     },
+     {
+      "id": "other",
+      "name": "Другие текстильные поверхности",
+      "priceLabel": "Цена по фото"
+     },
+     {
+      "id": "drying",
+      "name": "Сушка мебели",
+      "priceLabel": "400 Kč"
+     }
+    ],
+    "quoteByPhoto": "Цена по фото",
+    "priceNote": "Цены «от» ориентировочные. Точную цену определяет менеджер по фотографиям либо мастер на месте до начала работ. Минимальный заказ — 900 Kč. Выезд по Праге бесплатный."
+   },
+   "calculator": {
+    "kicker": "02 / Калькулятор",
+    "heading": "Начните с чистого дома.",
+    "intro": "Выберите услуги и сразу узнайте ориентировочную стоимость.",
+    "dryingLabel": "Сушка мебели",
+    "dryingPrice": "+400 Kč",
+    "summaryKicker": "Предварительный расчёт",
+    "from": "от",
+    "travelFree": "Выезд по Праге бесплатно",
+    "minimum": "Минимальный заказ: 900 Kč",
+    "unpricedNote": "Выбранные услуги без прайса рассчитываются отдельно по фото. В указанную сумму они не включены.",
+    "priceNote": "Цены «от» ориентировочные. Точную цену определяет менеджер по фотографиям либо мастер на месте до начала работ. Минимальный заказ — 900 Kč. Выезд по Праге бесплатный.",
+    "cta": "Выбрать время",
+    "unitSqm": " m²",
+    "unitPcs": "шт."
+   },
+   "beforeAfter": {
+    "kicker": "03 / До и после",
+    "heading": "До и после",
+    "intro": "Наглядный пример возможного результата чистки дивана, матраса и ковра.",
+    "before": "До",
+    "after": "После",
+    "cards": [
+     {
+      "caption": "Диваны и кресла",
+      "image": "assets/img/before-after-sofa.webp"
+     },
+     {
+      "caption": "Матрасы",
+      "image": "assets/img/before-after-mattress.webp"
+     },
+     {
+      "caption": "Ковры и ковролин",
+      "image": "assets/img/before-after-rug.webp"
+     }
+    ],
+    "imageAlt": "До / После: ",
+    "note": "Иллюстративная визуализация. Фактический результат зависит от материала, возраста и типа загрязнения."
+   },
+   "care": {
+    "kicker": "04 / Как мы чистим",
+    "heading": "Глубокая чистка.\nБережный уход.",
+    "headingLines": [
+     "Глубокая чистка.",
+     "Бережный уход."
+    ],
+    "text": "Каждая ткань требует своего подхода. Сначала оценим материал и состояние мебели, затем подберём способ чистки.",
+    "steps": [
+     {
+      "icon": "scan-line",
+      "title": "Профессиональное оборудование",
+      "text": "Работаем экстрактором Santoemma Sabrina Maxi."
+     },
+     {
+      "icon": "shield-check",
+      "title": "Забота о вашей мебели",
+      "text": "Подбираем способ чистки под ткань и загрязнение. Цену согласовываем заранее."
+     },
+     {
+      "icon": "wind",
+      "title": "Сушка за 400 Kč",
+      "text": "К химчистке можно добавить сушку мебели."
+     }
+    ],
+    "image": "assets/img/sofa-interior.webp"
+   },
+   "guarantee": {
+    "icon": "shield-check",
+    "value": "100%",
+    "text": "Устранение запаха мочи со 100% гарантией."
+   },
+   "booking": {
+    "kicker": "05 / Заявка",
+    "heading": "Когда вам удобно?",
+    "text": "Выберите желаемое время. Заявка сохранится, а менеджер подтвердит время отдельно. Часовой пояс — Прага.",
+    "totalLabel": "Предварительная стоимость вашего заказа",
+    "from": "от",
+    "totalDefault": "от 900 Kč",
+    "unpricedNote": "Выбранные услуги без прайса рассчитываются отдельно по фото. В указанную сумму они не включены.",
+    "bullets": [
+     "Выезд по Праге бесплатно",
+     "Минимальный заказ: 900 Kč"
+    ],
+    "privacy": "Данные формы используются для обработки заявки и подтверждения времени.",
+    "fields": {
+     "name": "Ваше имя",
+     "phone": "Телефон",
+     "phonePlaceholder": "+420",
+     "address": "Адрес в Праге",
+     "date": "Удобная дата",
+     "time": "Удобное время",
+     "timePlaceholder": "--:--",
+     "message": "Что нужно почистить?"
+    },
+    "consent": "Согласен на обработку указанных данных для оформления этой заявки.",
+    "submit": "Отправить заявку",
+    "sending": "Отправляем…",
+    "success": "Заявка сохранена.",
+    "successText": "Время пока не подтверждено. Номер вашей заявки:",
+    "error": "Не удалось сохранить заявку. Введённые данные сохранены в форме. Попробуйте ещё раз."
+   },
+   "faq": {
+    "kicker": "FAQ",
+    "heading": "Отвечаем на ваши вопросы",
+    "items": [
+     {
+      "q": "Как узнать точную цену?",
+      "a": "Менеджер определит её по фотографиям или мастер при осмотре на месте. Стоимость согласовывается с вами до начала работ."
+     },
+     {
+      "q": "Можно приехать сегодня?",
+      "a": "Выезд сегодня возможен при наличии свободного мастера. Работаем 24/7. Выбранное в заявке время не означает автоматического подтверждения записи."
+     },
+     {
+      "q": "Что входит в расчёт?",
+      "a": "Калькулятор показывает начальную стоимость выбранных услуг и учитывает минимальный заказ 900 Kč. Позиции без прайса рассчитываются отдельно."
+     },
+     {
+      "q": "Выезд по Праге платный?",
+      "a": "Нет, выезд по Праге бесплатный."
+     },
+     {
+      "q": "Как работает сушка?",
+      "a": "Сушку мебели можно добавить за 400 Kč. Время высыхания мастер уточнит с учётом ткани и условий."
+     }
+    ]
+   },
+   "footer": {
+    "contacts": [
+     {
+      "type": "instagram",
+      "label": "Instagram",
+      "icon": "at-sign"
+     },
+     {
+      "type": "whatsapp",
+      "label": "WhatsApp",
+      "icon": "message-circle"
+     },
+     {
+      "type": "phone",
+      "label": "+420 776 421 011",
+      "icon": "phone"
+     },
+     {
+      "type": "email",
+      "label": "cleaningprahacz@gmail.com",
+      "icon": "mail"
+     }
+    ],
+    "brandName": "CleaningPraha",
+    "brandTagline": "UPHOLSTERY CARE · 24/7",
+    "text": "Профессиональная химчистка мебели в Праге.",
+    "meta": "Praha · 24/7 · CZ / RU / EN"
+   },
+   "stickyBar": {
+    "label": "Предварительная стоимость вашего заказа",
+    "price": "от 900 Kč",
+    "cta": "Выбрать время"
+   },
+   "whatsappFloat": {
+    "ariaLabel": "WhatsApp",
+    "href": "https://wa.me/420776421011"
+   },
+   "thankYou": {
+    "title": "Спасибо!",
+    "text": "Ваша заявка отправлена. Мы свяжемся с вами для подтверждения времени.",
+    "back": "Вернуться на сайт"
+   }
+  },
+  "en": {
+   "meta": {
+    "title": "Upholstery Cleaning Prague | CleaningPraha",
+    "description": "Professional care for sofas, mattresses and carpets. In your home, gentle on fabrics and attentive to every detail."
+   },
+   "header": {
+    "brandName": "CleaningPraha",
+    "brandTagline": "UPHOLSTERY CARE · 24/7",
+    "nav": [
+     {
+      "label": "Services & prices",
+      "href": "#services"
+     },
+     {
+      "label": "Calculator",
+      "href": "#calculator"
+     },
+     {
+      "label": "Our approach",
+      "href": "#care"
+     }
+    ],
+    "langs": [
+     {
+      "code": "cs",
+      "label": "CZ"
+     },
+     {
+      "code": "ru",
+      "label": "RU"
+     },
+     {
+      "code": "en",
+      "label": "EN"
+     }
+    ],
+    "cta": "Choose a time"
+   },
+   "hero": {
+    "badge": "OPEN 24/7 · DAY AND NIGHT",
+    "eyebrow": "UPHOLSTERY CLEANING · PRAGUE",
+    "h1Line1": "Your favourite furniture.",
+    "h1Accent": "Fresh again.",
+    "subtitle": "Professional care for sofas, mattresses and carpets. In your home, gentle on fabrics and attentive to every detail.",
+    "ctaPrimary": "Choose a time",
+    "ctaSecondary": "Estimate your price",
+    "checks": [
+     "Same-day visits may be available",
+     "Free travel within Prague"
+    ],
+    "videoPause": "Pause video",
+    "videoPlay": "Play video"
+   },
+   "stats": [
+    {
+     "value": "5",
+     "label": "years of experience"
+    },
+    {
+     "value": "24/7",
+     "label": "available every day"
+    },
+    {
+     "value": "900 Kč",
+     "label": "minimum order"
+    },
+    {
+     "value": "0 Kč",
+     "label": "travel within Prague"
+    }
+   ],
+   "services": {
+    "kicker": "01 / Services & prices",
+    "heading": "A fresh start for every surface.",
+    "intro": "From your favourite armchair to the whole sofa. Choose what needs a little care.",
+    "from": "from",
+    "cards": [
+     {
+      "title": "Sofas & armchairs",
+      "description": "Small, large, corner and modular sofas. Care tailored to your upholstery.",
+      "priceFrom": "from",
+      "price": "900 Kč",
+      "image": "assets/img/sofa-interior.webp",
+      "calcPreset": "sofa3",
+      "ariaCalc": "Estimate your price: Sofas & armchairs"
+     },
+     {
+      "title": "Mattresses",
+      "description": "One-side or two-side cleaning for your place to rest.",
+      "priceFrom": "from",
+      "price": "900 Kč",
+      "image": "assets/img/bedroom.webp",
+      "calcPreset": "mattress1",
+      "ariaCalc": "Estimate your price: Mattresses"
+     },
+     {
+      "title": "Rugs & carpets",
+      "description": "Area rugs and fitted carpets. At home or in the office.",
+      "priceFrom": "from",
+      "price": "120 Kč/m²",
+      "image": "assets/img/rug.webp",
+      "calcPreset": "carpet",
+      "ariaCalc": "Estimate your price: Rugs & carpets"
+     }
+    ],
+    "catalog": [
+     {
+      "id": "sofa3",
+      "name": "3-seat sofa",
+      "priceLabel": "from 900 Kč"
+     },
+     {
+      "id": "sofa4",
+      "name": "4-seat sofa",
+      "priceLabel": "from 1,100 Kč"
+     },
+     {
+      "id": "sofa5",
+      "name": "5-seat sofa",
+      "priceLabel": "from 1,300 Kč"
+     },
+     {
+      "id": "corner",
+      "name": "Corner sofa, excluding cushions",
+      "priceLabel": "from 1,000 Kč"
+     },
+     {
+      "id": "mattress1",
+      "name": "Mattress — one side",
+      "priceLabel": "from 900 Kč"
+     },
+     {
+      "id": "mattress2",
+      "name": "Mattress — both sides",
+      "priceLabel": "from 1,600 Kč"
+     },
+     {
+      "id": "carpet",
+      "name": "Area rug",
+      "priceLabel": "from 120 Kč/m²"
+     },
+     {
+      "id": "chair",
+      "name": "Upholstered chair",
+      "priceLabel": "from 300 Kč"
+     },
+     {
+      "id": "armchair",
+      "name": "Armchair",
+      "priceLabel": "from 200 Kč"
+     },
+     {
+      "id": "pouf",
+      "name": "Stool / pouf",
+      "priceLabel": "from 100 Kč"
+     },
+     {
+      "id": "sofa2",
+      "name": "2-seat section",
+      "priceLabel": "from 300 Kč"
+     },
+     {
+      "id": "modular",
+      "name": "Large / modular / U-shaped sofa",
+      "priceLabel": "from 1,500 Kč"
+     },
+     {
+      "id": "fitted",
+      "name": "Fitted carpet",
+      "priceLabel": "from 100 Kč/m²"
+     },
+     {
+      "id": "headboard",
+      "name": "Headboard and upholstered bed frame",
+      "priceLabel": "from 500 Kč"
+     },
+     {
+      "id": "cushion",
+      "name": "Cushion / seat pad",
+      "priceLabel": "from 100 Kč"
+     },
+     {
+      "id": "office",
+      "name": "Office chair",
+      "priceLabel": "from 200 Kč"
+     },
+     {
+      "id": "urineOdor",
+      "name": "Urine odour removal — 100% guarantee",
+      "priceLabel": "from 300 Kč"
+     },
+     {
+      "id": "other",
+      "name": "Other textile surfaces",
+      "priceLabel": "Quote from photos"
+     },
+     {
+      "id": "drying",
+      "name": "Furniture drying",
+      "priceLabel": "400 Kč"
+     }
+    ],
+    "quoteByPhoto": "Quote from photos",
+    "priceNote": "“From” prices are estimates. The manager confirms the exact price from photos, or the technician on site before work begins. Minimum order 900 Kč. Free travel within Prague."
+   },
+   "calculator": {
+    "kicker": "02 / Calculator",
+    "heading": "A fresher home starts here.",
+    "intro": "Choose your services. See your starting estimate straight away.",
+    "dryingLabel": "Furniture drying",
+    "dryingPrice": "+400 Kč",
+    "summaryKicker": "Your starting estimate",
+    "from": "from",
+    "travelFree": "Free travel within Prague",
+    "minimum": "Minimum order: 900 Kč",
+    "unpricedNote": "Selected services without a listed price require a separate photo-based quote and are not included in this amount.",
+    "priceNote": "“From” prices are estimates. The manager confirms the exact price from photos, or the technician on site before work begins. Minimum order 900 Kč. Free travel within Prague.",
+    "cta": "Choose a time",
+    "unitSqm": " m²",
+    "unitPcs": "pcs"
+   },
+   "beforeAfter": {
+    "kicker": "03 / Before and after",
+    "heading": "Before and after",
+    "intro": "A visual example of the possible result for a sofa, mattress and rug.",
+    "before": "Before",
+    "after": "After",
+    "cards": [
+     {
+      "caption": "Sofas & armchairs",
+      "image": "assets/img/before-after-sofa.webp"
+     },
+     {
+      "caption": "Mattresses",
+      "image": "assets/img/before-after-mattress.webp"
+     },
+     {
+      "caption": "Rugs & carpets",
+      "image": "assets/img/before-after-rug.webp"
+     }
+    ],
+    "imageAlt": "Before / After: ",
+    "note": "Illustrative visualisation. Actual results depend on material, age and type of soiling."
+   },
+   "care": {
+    "kicker": "04 / Our approach",
+    "heading": "Deep cleaning.\nThoughtful care.",
+    "headingLines": [
+     "Deep cleaning.",
+     "Thoughtful care."
+    ],
+    "text": "Every fabric deserves the right approach. We assess the material and condition first, then select the cleaning method.",
+    "steps": [
+     {
+      "icon": "scan-line",
+      "title": "Professional equipment",
+      "text": "We use the Santoemma Sabrina Maxi extractor."
+     },
+     {
+      "icon": "shield-check",
+      "title": "Respect for your furniture",
+      "text": "We adapt the method to the fabric and soiling. You approve the price before we start."
+     },
+     {
+      "icon": "wind",
+      "title": "Drying for 400 Kč",
+      "text": "Add furniture drying to your cleaning service."
+     }
+    ],
+    "image": "assets/img/sofa-interior.webp"
+   },
+   "guarantee": {
+    "icon": "shield-check",
+    "value": "100%",
+    "text": "Urine odour removal with a 100% guarantee."
+   },
+   "booking": {
+    "kicker": "05 / Enquiry",
+    "heading": "When suits you?",
+    "text": "Choose your preferred time. We save your request; the manager confirms the appointment separately. All times are Prague local time.",
+    "totalLabel": "Your estimated order total",
+    "from": "from",
+    "totalDefault": "from 900 Kč",
+    "unpricedNote": "Selected services without a listed price require a separate photo-based quote and are not included in this amount.",
+    "bullets": [
+     "Free travel within Prague",
+     "Minimum order: 900 Kč"
+    ],
+    "privacy": "Form details are used to process your enquiry and confirm an appointment.",
+    "fields": {
+     "name": "Your name",
+     "phone": "Phone number",
+     "phonePlaceholder": "+420",
+     "address": "Address in Prague",
+     "date": "Preferred date",
+     "time": "Preferred time",
+     "timePlaceholder": "--:--",
+     "message": "What needs cleaning?"
+    },
+    "consent": "I agree to the processing of these details to handle this enquiry.",
+    "submit": "Send booking request",
+    "sending": "Sending…",
+    "success": "Your request has been saved.",
+    "successText": "Your appointment is not yet confirmed. Your request reference:",
+    "error": "We could not save your request. Your details are still in the form. Please try again."
+   },
+   "faq": {
+    "kicker": "FAQ",
+    "heading": "A few things you may wonder",
+    "items": [
+     {
+      "q": "How do I get an exact price?",
+      "a": "The manager provides a quote from your photos, or the technician assesses the furniture on site. You approve the price before work starts."
+     },
+     {
+      "q": "Can you come today?",
+      "a": "Same-day visits depend on availability. We work 24/7. Choosing a preferred time does not automatically confirm an appointment."
+     },
+     {
+      "q": "What does the estimate include?",
+      "a": "The calculator adds starting prices for selected services and applies the 900 Kč minimum order. Unpriced items are quoted separately."
+     },
+     {
+      "q": "Is travel within Prague extra?",
+      "a": "No, travel within Prague is free."
+     },
+     {
+      "q": "How does drying work?",
+      "a": "Furniture drying can be added for 400 Kč. The technician advises on drying time based on the fabric and conditions."
+     }
+    ]
+   },
+   "footer": {
+    "contacts": [
+     {
+      "type": "instagram",
+      "label": "Instagram",
+      "icon": "at-sign"
+     },
+     {
+      "type": "whatsapp",
+      "label": "WhatsApp",
+      "icon": "message-circle"
+     },
+     {
+      "type": "phone",
+      "label": "+420 776 421 011",
+      "icon": "phone"
+     },
+     {
+      "type": "email",
+      "label": "cleaningprahacz@gmail.com",
+      "icon": "mail"
+     }
+    ],
+    "brandName": "CleaningPraha",
+    "brandTagline": "UPHOLSTERY CARE · 24/7",
+    "text": "Professional upholstery cleaning in Prague.",
+    "meta": "Praha · 24/7 · CZ / RU / EN"
+   },
+   "stickyBar": {
+    "label": "Your estimated order total",
+    "price": "from 900 Kč",
+    "cta": "Choose a time"
+   },
+   "whatsappFloat": {
+    "ariaLabel": "WhatsApp",
+    "href": "https://wa.me/420776421011"
+   },
+   "thankYou": {
+    "title": "Thank you!",
+    "text": "Your request has been sent. We will contact you to confirm the appointment.",
+    "back": "Back to the website"
+   }
+  }
+ }
+}
